@@ -1,0 +1,277 @@
+.notificationContainer {
+
+  /* border: 1px solid red; */
+  height: 100%;
+  width: 50%;
+  /* border: 2px solid blue; */
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  /* justify-content: center;
+  align-items: center; */
+  padding: 5px;
+}
+
+.notificationInnerContainer {
+  border: 1px solid rgb(154, 149, 149);
+  height: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.notificationHeader {
+  height: auto;
+  width: 100%;
+  /* border: 1px solid red; */
+  padding: 10px;
+  background-color: yellow;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+
+}
+
+.notificationHeader h5 {
+  height: auto;
+  /* border: 1px solid red; */
+  margin: 0px;
+  padding: 0px;
+  font-size: 25px;
+  font-family: sans-serif;
+  text-transform: capitalize;
+  font-weight: 600;
+  /* border-radius: 10px; */
+
+}
+
+
+.cardHead {
+  /* display: flex; */
+
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+  /* border: red solid  3px; */
+}
+
+.HeadButtons {
+  display: flex;
+  justify-content: right;
+  flex-direction: row;
+  /* background-color: rgb(242, 242, 242); */
+  padding: 0;
+  border-radius: 5px;
+  align-items: center;
+}
+
+.userName {
+  display: flex;
+  /* align-items: center; */
+  /* text-align: center; */
+  /* border: 2px solid #4CAF50; */
+
+  /* border-radius: 50%; */
+  /* justify-content: center;
+  flex-direction: column;  */
+}
+
+.buttonhead {
+  /* display: inline-block; */
+  /* padding: 10px 20px; */
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  /* border: 2px solid #4CAF50;  */
+  color: #131613;
+  background-color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  margin-left: 20px;
+  margin: 5px;
+  border: none;
+
+  height: 50%;
+}
+
+.Accept {
+  color: #3b2aee;
+  background-color: #f0eff6;
+}
+
+.userName p {
+  font-size: 10;
+  margin-top: 10px;
+  color: #150c0c;
+}
+
+.buttonhead:hover {
+  background-color: #141414;
+  /* Green background */
+  color: #fff;
+  /* White text */
+}
+
+.cardbody {
+  padding: 0;
+  /* border: 1px solid red !important; */
+  width: 100%;
+  height: auto;
+  border-radius: 7px;
+  margin: 10px;
+  display: flex;
+  padding-left: 10px;
+  color: #141220;
+  border: 1px solid rgb(219, 214, 214);
+  justify-content: space-between;
+  box-shadow: rgba(175, 172, 172, 0.15) 1.95px 1.95px 2.6px;
+  width: 95%;
+}
+
+.cardbod {
+  margin: 5px;
+  width: 98%;
+  border: 1px solid black;
+  height: 130px;
+}
+
+.card {
+  width: 95%;
+  border: 0;
+  align-items: center;
+}
+
+.head {
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  color: #150c0c;
+  margin-top: 15px;
+  font-weight: bold;
+  padding-left: 17px;
+}
+
+.header {
+  display: flex;
+  justify-content: start;
+  /* border: red solid 3px; */
+  width: 100%;
+  /* position: sticky; */
+}
+
+.name {
+  font-family: Arial, sans-serif;
+  font-size: 17px;
+  color: #150c0c;
+  width: 30%;
+  margin-bottom: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-weight: bold;
+  /* border: 1px solid red; */
+}
+
+.notificationMsgContainer {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+
+}
+
+.notificationMsgContainer p {
+  padding: 0px;
+  margin: 0px;
+
+}
+
+
+.preferencetype {
+  font-size: 14px !important;
+}
+
+
+
+.type {
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  color: #2e2f2e;
+  /* border: 1px solid red; */
+  animation: blink 3s infinite;
+  font-weight: 600;
+  margin-top: 6px;
+}
+
+.type1 {
+  font-family: Arial, sans-serif;
+  font-size: 10px;
+  color: #150c0c;
+}
+
+.nooNotficationContainer {
+  /* border: 1px solid red; */
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nooNotficationContainer p {
+  font-weight: bold;
+
+}
+
+
+@media (max-width: 767px) {
+
+  .notificationMsgContainer p {
+    font-size: 13px;
+
+  }
+
+  .userName h5 {
+    font-size: 15px;
+  }
+
+  .cardbod {
+ 
+    height:140px;
+  }
+
+  .notificationContainer {
+    width: 100%;
+  }
+
+  .preferencetype {
+    font-size: 8px !important;
+  }
+
+  .logo {
+    width: 20%;
+  }
+
+  .type {
+    display: none;
+  }
+
+  .type1 {
+    display: none;
+  }
+}
+
+.logo {
+  /* border:  #f0eff6 solid 1px; */
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+}
+
+.leftcontainer {
+  width: 10px;
+  height: 90%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+}

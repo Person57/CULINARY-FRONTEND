@@ -1,0 +1,793 @@
+.profile-container {
+    align-items: center;
+    display: flex;
+
+}
+
+.profileright {
+    display: flex;
+}
+
+.user-name-container {
+    /* margin-top: 40px; */
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    margin: 0;
+    /* border: 1px solid red; */
+}
+
+.userName {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    /* border: 1px solid red; */
+    width: 300px;
+    padding: 0;
+    margin-left: 0;
+    text-align: left;
+    margin-top: 20px;
+
+}
+
+.buttonContainer {
+    display: flex;
+}
+
+
+
+.profile_button {
+    border: none;
+    padding: 0;
+    background-color: #ebe7df;
+    cursor: pointer;
+    width: 100px;
+    height: 35px;
+    /* border: 1px solid red;  */
+    /* margin-top: 10px; */
+    border-radius: 3px;
+    text-align: center;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.profile_img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+    margin-right: 10px;
+    /* margin-top: 40px; */
+}
+
+.container {
+    /* display: flex; */
+    /* border: 3px solid red;  */
+    text-align: center;
+    justify-content: center;
+}
+
+.profile_details {
+    background-color: #ebe7df;
+
+
+    padding-left: 200px;
+}
+
+.post_container {
+    display: flex;
+    margin: none;
+    /* border: 1px solid red; */
+}
+
+.post_container p {
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+
+.Bio {
+
+    width: 200px;
+    max-height: 300px;
+    text-align: left;
+}
+
+.Bio p {
+    margin: 0;
+}
+
+.rowpost {
+    width: 70%;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: row;
+    /* border: 1px solid red; */
+    margin: 5px;
+    padding: 10px;
+}
+
+
+.row {
+    width: 100%;
+    height: 40%;
+
+}
+
+
+.profilePostContainner {
+    /* border: 1px solid red; */
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.postInnerContainer {
+    width: 100%;
+    /* border: 1px solid red; */
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.image {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+
+}
+
+.post_button {
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    width: auto;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 1px;
+    font-weight: 600;
+    font-stretch: 75%;
+}
+
+.desktop-text {
+    font-size: 12px !important;
+}
+
+.post_button span {
+    font-size: 18px;
+    /* border: 1px solid red; */
+    margin-top: 3px;
+    margin-right: 3px;
+}
+
+
+.post_button:hover {
+    background-color: #dcd7cf98;
+}
+
+.post_buttonAactive {
+    background-color: #bcb6af87;
+
+}
+
+.save_post {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgb(190, 190, 190);
+    width: 67%;
+    margin-bottom: 10px;
+    /* border: 1px solid red; */
+
+}
+
+.noPostContainer {
+    text-align: center;
+
+    width: 100%;
+}
+
+
+.innerSavePostContainer {
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid green; */
+    padding: 5px;
+    width: 60%;
+    margin-top: 5px;
+}
+
+.homeRight {
+    padding-top: 50px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid green; */
+    /* padding: 10px; */
+    /* margin: 0px 10px; */
+    overflow: auto;
+    flex-direction: row !important;
+}
+
+.profile {
+    width: 100%;
+    margin-left: 30px;
+    align-items: center;
+    /* border: 2px solid green; */
+}
+
+.container-fluid {
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid green; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+}
+
+.number {
+    font-weight: 500;
+    color: #333;
+    font-size: 20px;
+}
+
+.cardPost {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    /* margin-bottom: 20px; */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 280px;
+    width: 280px;
+    margin: 5px;
+    cursor: pointer;
+    /* border: 1px solid red; */
+}
+
+
+.card-title {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    color: #555;
+}
+
+.Postcol {
+    display: flex;
+
+}
+
+.card-img-top {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    max-height: 100%;
+    /* border: 1px solid red; */
+
+}
+
+.postColumn {
+    /* border: 1px solid red; */
+}
+
+
+.profilePostsContainer {
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+
+}
+
+
+@media (max-width: 767px) {
+
+    .container-fluid {
+        width: 100%;
+        height: 100%;
+        /* border: 1px solid rgb(26, 179, 90); */
+        margin: 0px;
+        padding: 0px;
+
+    }
+
+
+
+
+    .rowpost {
+        width: 100%;
+        /* border: 1px solid blue; */
+
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0px;
+        margin: 0px;
+    }
+
+
+    .image {
+        width: 25%;
+        /* border: 1px solid red; */
+        /* margin: 7px; */
+    }
+
+    .profile_img {
+        height: 80px;
+        width: 80px;
+        margin: 0px;
+
+
+    }
+
+    .imgContainer {
+        /* border: 1px solid red; */
+
+    }
+
+    .profile {
+        width: 100%;
+        margin: 0px;
+        /* border: 2px solid green; */
+    }
+
+    .userNameContainer {
+        display: flex;
+        width: 100%;
+
+        justify-content: space-evenly;
+        /* border: 2px solid green; */
+        padding: 0px;
+        margin-top: 10px;
+    }
+
+    .user-name-container {
+        /* margin-top: 40px; */
+        /* border: 1px solid red; */
+        width: 100%;
+    }
+
+    .userName {
+        font-size: 15px;
+        width: auto;
+        display: block;
+        /* border: 1px solid red; */
+        margin: 0px;
+    }
+
+    .profile_button {
+        background-color: transparent;
+        cursor: pointer;
+        width: auto;
+        height: 10px;
+        border-radius: 3px;
+        text-align: center;
+        margin: 0px;
+        /* border: 1px solid red;  */
+
+
+
+
+
+    }
+
+    .profile_button span {
+        font-size: 20px;
+    }
+
+
+    .cardPost {
+        
+        width: 250px;
+        margin: 0;
+    }
+
+    .row {
+        width: 100%;
+        height: 100%;
+        /* border: 1px solid red; */
+    }
+
+    .post_button {
+        width: 50px;
+    }
+
+    .desktop-text {
+
+        display: none;
+    }
+
+    .innerSavePostContainer {
+        display: flex;
+        justify-content: space-between !important;
+
+        width: 100%;
+    }
+
+    .save_post {
+        width: 90%;
+    }
+
+
+}
+
+.form-group {
+    margin-bottom: 1rem;
+
+}
+
+.form-input {
+    width: 100%;
+    border: none;
+    /* border-bottom: 1px solid red; */
+    outline: none;
+
+
+
+}
+
+.btn {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+
+}
+
+.editContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 5px;
+
+}
+
+/* modalStyles.css */
+
+.overlayer {
+    width: 100vw;
+    height: 100vh;
+    /* border: 1px solid red; */
+}
+
+.content {
+    width: 40%;
+    height: 50%;
+    margin: auto;
+    /* border: 1px solid red; */
+}
+
+@media (max-width: 767px) {
+    .editContainer {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        padding: 5px;
+    }
+
+    .editRight {
+        width: 100%;
+        height: 10%;
+        display: flex;
+        flex-direction: column;
+        border: rgb(2, 1, 1) solid 1px;
+
+
+    }
+
+    .editleft {
+        width: 100%;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        border: rgb(18, 11, 10) solid 1px;
+
+    }
+
+    .profilePostContainner {
+        /* border: 1px solid green; */
+        width: 100%;
+
+    }
+
+
+}
+
+
+.editForm {
+    /* border: rgb(28, 161, 57) solid 1px; */
+    padding: 0px;
+    margin: 0px;
+    height: 100%;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.editRight {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* border: red solid 1px; */
+
+
+}
+
+.editleft {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* border: tomato solid 1px; */
+
+}
+
+.editInpContainer {
+    /* border: rgb(115, 49, 201) solid 1px; */
+    display: flex;
+    flex-direction: column;
+    margin: 10px 1px;
+
+
+}
+
+.editintText {
+    font-weight: 500;
+}
+
+.editint {
+    width: 95%;
+    margin-right: 5px;
+}
+
+.editBtnContainer {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.editSubmitBtn {
+    background-color: #f3db00;
+    color: rgb(32, 21, 21);
+    border: none;
+
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    width: 80px;
+    height: 30px;
+    margin: 5px;
+
+}
+
+.editCloseBtn {
+    background-color: #1a71d4;
+    color: #fff;
+    border: none;
+
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    width: 50px;
+    height: 30px;
+    margin: 5px;
+    margin-right: 15px;
+}
+
+
+.home_tile {
+    color: #000;
+    font-size: 10px;
+    display: flex;
+    text-align: center;
+    /* border: rgb(93, 21, 209) solid 1px; */
+
+
+}
+
+.home_post_label_input_card {
+    display: flex;
+    flex-direction: column;
+    /* align-self: flex-start; */
+    align-content: flex-start;
+}
+
+.home_post_label_text {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.home_post_input_card {
+    height: auto;
+    width: 330px;
+    padding: 15px;
+    border-style: dashed;
+    border-radius: 10px;
+    border-width: 1px;
+    margin-top: 4px;
+    box-shadow: 1px 0px 30px 0px rgba(0, 0, 0, 0.1);
+}
+
+.home_post_image_file_input::file-selector-button {
+    margin-right: 20px;
+    border: none;
+    background: #084cdf;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.4s ease-in-out;
+}
+
+.home_post_image_file_input::file-selector-button:hover {
+    background: #0d45a5;
+}
+
+.home_post_name_label {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 4px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.home_post_name_input {
+    height: 40px;
+    width: 330px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    padding-left: 15px;
+}
+
+.home_post_select_card {
+    height: 45px;
+    width: 330px;
+    padding-left: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+}
+
+.home_post_text_area {
+    height: 150px;
+    width: 330px;
+    padding-left: 15px;
+    padding-top: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+}
+
+.home_post_submit_button_card {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.home_post_submit_button {
+    height: 45px;
+    width: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-style: none;
+    border-radius: 10px;
+    color: #fff;
+    background: #084cdf;
+}
+
+/* CSS for the main image container */
+.file-inner-container {
+    border: 2px dashed #ccc;
+    /* Add a dashed border */
+    border-radius: 10px;
+    /* Rounded corners */
+    padding: 20px;
+    /* Add some padding */
+    text-align: center;
+    /* Center the content */
+    background-color: #f9f9f9;
+    /* Light background color */
+}
+
+/* Styles for the uploaded image */
+/* Styles for the uploaded image */
+.courseUploadImgContainer img {
+    max-width: 100%;
+    /* Ensure the image doesn't exceed container width */
+    max-height: 150px;
+    /* Limit the height of the image */
+    display: block;
+    /* Make the image behave as a block element */
+    margin: 0 auto;
+    /* Center the image horizontally */
+    object-fit: contain;
+    /* Maintain aspect ratio while fitting within container */
+}
+
+
+/* Styles for the upload logo and text */
+.UploadImgInCourse {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+    /* border: 1px solid red; */
+}
+
+.UploadToCloudCont {
+    margin-bottom: 10px;
+    /* Add some space below the upload logo */
+}
+
+.UploadToCloudContPara {
+    font-size: 14px;
+    /* Adjust font size */
+    color: #555;
+    /* Text color */
+}
+
+/* Styles for the browse button */
+.browse-btn {
+    width: 30px;
+    height: 30px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    /* padding: 5px;  */
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+
+.browse-btn span {
+    font-size: 20px;
+    /* border: 1px solid red; */
+    margin: 0px;
+
+}
+
+.browse-btn:hover {
+    background-color: #0056b3;
+    /* Darker background color on hover */
+}
+
+.dragButtonContainerCourse {
+    /* border: 1px solid red; */
+    display: grid;
+    place-items: center;
+
+}
+
+.imgSecondStyles {
+    /* border: 1px solid red; */
+    margin: 5px;
+}

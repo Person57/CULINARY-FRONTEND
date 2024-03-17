@@ -1,0 +1,442 @@
+.communityContainer {
+  margin: 0px;
+  /* border: 1px solid red; */
+}
+
+.communityInnerContainer {
+  height: 100%;
+  width: 100%;
+  border: 1px solid rgb(154, 149, 149);
+  /* padding: 10px; */
+  margin: 10px;
+  border-top-right-radius: 10px !important;
+  border-top-left-radius: 10px !important;
+
+  /* border: 1px solid red; */
+
+  /* display: flex; */
+  /* justify-content: center; */
+  /* border: 1px solid rgb(239, 244, 239); */
+  /* padding: 10px; */
+  /* padding-bottom: 30px !important; */
+  overflow: auto;
+
+}
+
+.resultContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.posthomeRightContainer {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  padding: 10px;
+  /* margin: 0px 10px; */
+  /* overflow: auto; */
+}
+
+.createCommunityButtonContainer {
+  width: 100%;
+  height: 100%;
+  /* border: 1px solid #bababa; */
+  padding: 10px;
+  display: grid;
+  place-items: center;
+}
+
+.createCommunityButtonContainer {
+  /* background-color: rgba(0, 0, 0, 0.163); */
+  color: yellow;
+}
+
+.createCommunityButtonContainer button {
+  background-color: rgb(255, 255, 0);
+  color: black;
+  padding: 8px 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.createCommunityButtonContainer button:hover {
+  background-color: rgb(172, 172, 172);
+  color: white;
+}
+
+.cCContainer {
+  margin: 5px;
+  width: 90%;
+  height: 100%;
+
+  border: 2px solid #bababa;
+}
+
+.cCBackButtonContianer {
+  /* border: 1px solid blue; */
+
+  width: 100%;
+}
+
+.cCButtonBack {
+  height: 40px;
+  width: 40px;
+  /* border: 1px solid red; */
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background-color: white;
+  border: none;
+}
+
+.cCButtonBack:hover {
+  background-color: rgb(234, 234, 234);
+}
+
+
+.cCInputContainer {
+  /* border: 1px solid red; */
+  display: flex;
+  width: 100%;
+  margin: 0px;
+}
+
+.cCSearchInput {
+  border: 1px solid #bababa;
+  /* border: none; */
+  outline: none;
+  padding: 4px;
+  margin: 4px;
+  border-radius: 3px;
+
+}
+
+.cCSearchSelect {
+  width: 30%;
+  border: 1px solid #bababa;
+  outline: none;
+  padding: 4px;
+  margin: 4px;
+  border-radius: 3px;
+}
+
+.SearchContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  /* border: 1px solid rgb(24, 214, 125); */
+  overflow: auto;
+  padding-top: 130px;
+  cursor: pointer;
+  max-height: calc(100vh - 110px);
+  /* margin-top: 30px; */
+}
+
+.Suggestioncenter {
+  /* border: 1px solid red; */
+  width: 95%;
+  margin: 0px;
+
+
+}
+
+.user {
+  width: 100%;
+}
+
+.cCContainerForm {
+  width: 100%;
+  /* border: red solid 1px; */
+  padding: 0%;
+}
+
+.communityFIlterContainer {
+  /* border: 1px soild blue; */
+  /* padding: 5px; */
+}
+
+.StatusBtn {
+  color: #007bff;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: bold;
+  /* border: 2px solid red; */
+  margin: 1px 8px;
+  padding: 3px;
+  border: none;
+  background-color: transparent;
+  margin-left: 5px;
+
+}
+
+.Cardcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+
+}
+
+.card-header {
+  background-color: yellow;
+  width: 100%;
+  /* border: 1px solid rgb(154, 149, 149); */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-top-right-radius: 10px !important;
+  border-top-left-radius: 10px !important;
+
+}
+
+.CommunityHeader {
+  font-size: 20px;
+  font-family: sans-serif;
+  text-transform: capitalize;
+  font-weight: 600;
+  border-radius: 10px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.communityAddIcon {
+  font-size: bold;
+  color: black;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+/* lkdkldkldmklkmlkmlkmldmklmklkmllllllxkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk */
+
+.card-body {
+  width: 100%;
+  height: 85vh;
+  /* Set height explicitly */
+  /* max-height: 100%; */
+  /* border: 1px solid rgb(154, 149, 149); */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  padding-bottom: 25px;
+  overflow: auto;
+
+/* border: 1px solid red; */
+}
+
+.type {
+  font-size: 10px;
+}
+
+.message-card {
+/* border: 1px solid red; */
+  width: 400px;
+  height: auto;
+  background-color: #ffffcc;
+  padding: 15px;
+  padding-left: 30px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.message-header {
+  display: flex;
+  align-items: center;
+}
+
+.profile-pic {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.message-info h6 {
+  margin: 0;
+}
+
+.message-info p {
+  margin: 5px 0;
+}
+
+.location {
+  margin: 0;
+  font-weight: bold;
+  color: #333;
+  /* Darken the location text */
+}
+
+.message-image {
+  width: 50%;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.dish-name {
+  margin-top: 20px;
+  /* Increased margin-top */
+  margin-bottom: 10px;
+  /* Increased margin-bottom */
+  font-weight: bold;
+}
+
+.price {
+  margin: 0;
+  font-weight: bold;
+}
+
+.description {
+  margin-top: 15px;
+  /* Increased margin-top */
+  margin-bottom: 5px;
+}
+
+.descr {
+  margin: 0;
+}
+
+.add-cart-button {
+
+  background-color: #ff9900;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  /* Increased padding */
+  margin-top: 15px;
+  /* Increased margin-top */
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.buttonContainerCommunity {
+  display: flex;
+  justify-content: flex-end;
+  /* align-items:flex-end; */
+}
+
+.add-cart-button:hover {
+  background-color: #ff6600;
+  /* Darker color on hover */
+}
+
+.cart-container {
+  width: 500px;
+  position: fixed;
+  bottom: 10px;
+  left: 39%;
+  transform: translateX(-50%);
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .card-body {
+    width: 100%;
+    height: 72vh;
+  }
+  
+.message-card {
+  /* border: 1px solid red; */
+    width: 270px;
+    padding: 5px;
+    padding-left: 10px;
+
+
+    /* background-color: #ffffcc;
+    padding: 15px;
+    padding-left: 30px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+  }
+
+  .add-cart-button {
+  font-size:12px ;
+  padding: 7px 15px;
+    /* background-color: #ff9900;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+
+    margin-top: 15px;
+
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); */
+  }
+
+
+  .communityInnerContainer {
+    margin: 0px;
+  }
+
+  .communityContainer {
+    margin-top: 40px;
+
+    padding: 0px;
+  }
+
+  .cart-container {
+    bottom: 50px;
+    width: calc(100% - 40px);
+    /* Adjust width for smaller screens */
+    left: 50%;
+    transform: translateX(-50%);
+    right: auto;
+    /* Remove right positioning */
+  }
+}
+
+
+.cart-container h5 {
+  /* cursor: pointer; */
+  margin: 0px;
+}
+
+.cart-container h5:hover {
+  text-decoration: underline;
+  /* Underline text on hover */
+
+}
+
+
+.cart-container p {
+  margin: 0px;
+
+}
+
+.inputElmntInCommunity{
+  width: 100%;
+  /* border: 1px solid red; */
+  /* position: absolute; */
+  /* bottom:5%; */
+}
+.inputElmntInCommunity input{
+  width: 100%;
+
+}

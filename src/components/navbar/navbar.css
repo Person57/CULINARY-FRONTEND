@@ -1,0 +1,132 @@
+.sideBarContainer {
+    height: 100%;
+    /* border: 2px solid orange; */
+    padding: 10px;
+    /* margin: 10px; */
+
+
+
+}
+
+.DeskTopSideBarContainer {
+    height: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+
+
+}
+
+.sideBarUnOrderList {
+    height: 100%;
+    /* border: 2px solid blueviolet; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 10px;
+
+}
+
+.sideBarUnOrderList li {
+    width: 100%;
+    list-style-type: none;
+    margin: 10px 0px;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    /* Add smooth transition effect */
+    /* border: 2px solid red; */
+}
+
+.sideBarUnOrderList li:hover {
+    background-color: #ececec;
+    /* Change the background color on hover to yellow */
+    color: black;
+    /* Change text color on hover to black */
+}
+
+
+@media (max-width: 767px) {
+    .sideBarContainer {
+        display: none;
+    }
+}
+
+
+
+.nav-item {
+    padding: 15px;
+}
+
+.nav-link {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+
+.AppName {
+    font-family: cursive;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    /* border: 1px solid red; */
+
+  
+
+}
+.AppName h1{
+ font-weight: bold;
+ color: rgb(255, 255, 0);
+ -webkit-text-stroke:0.5px rgb(57, 57, 48);
+
+
+}
+
+.material-symbols-outlined {
+    margin-right: 10px;
+}
+
+
+.navBarBottomInMobileView {
+
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.navBarTopInMobileView {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    padding:2px 10px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background-color: white;
+    margin-bottom:40px ;
+}
+
+.navBarBotttomContainer {
+    /* border: 2px solid red; */
+}
+
+.mobileViewNavButton {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px;
+    cursor: pointer;
+}
+
+.mobileViewNavButton span {
+    margin: 0px;
+    font-size: 30px;
+}
+
+.nav-item.active {
+    background-color: #eee;
+
+}

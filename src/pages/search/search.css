@@ -1,0 +1,41 @@
+.searchContainer{
+    /* border: 1px solid red; */
+    width: 70%;
+}
+
+.searchContainerForm{
+    width: 100%;
+    /* border: 1px solid red; */
+    /* padding: 0px; */
+    /* margin: 2px; */
+
+}
+.searchFormContainer{
+    width: 100%;
+    /* border: 1px solid red; */
+}
+
+.searchInputContainer{
+    width: 100%;
+    /* border: 1px solid blue; */
+    padding: 4px;
+    /* margin: 2px; */
+}
+
+.searchSearchInput{
+    width: 40%;
+    border: 1px solid  #bababa;
+    outline: none;
+    padding: 4px;
+    margin: 4px;
+    border-radius:3px ;
+}
+
+.searchSearchSelect{
+    width: 27%;
+    border: 1px solid  #bababa;
+    outline: none;
+    padding: 4px;
+    margin: 4px 2px;
+    border-radius:3px ;
+}
